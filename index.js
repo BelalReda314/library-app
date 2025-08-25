@@ -21,8 +21,4 @@ app.use('/borrow' , borrowRouter);
 app.use('/admin' , publishingRouter);
 app.use('/admin' , adminRouter);
 
-
-app.get("/", (req, res) => {
-  res.json({ message: "🚀 Server running on Vercel" });
-});
 module.exports = app;
