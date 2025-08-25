@@ -2,4 +2,4 @@
 const app = require('../app');
 
 // Export the Express app directly for Vercel
-module.exports = app;
+module.exports = app; 
